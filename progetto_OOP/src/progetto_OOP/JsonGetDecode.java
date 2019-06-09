@@ -19,7 +19,7 @@ public class JsonGetDecode {
 
 	public static void main(String[] args) {
 
-		String url = "https://www.dati.gov.it/api/3/action/package_show?id=814e29af-c19b-459d-b3c7-b607ba5bd01c";
+		String url = "https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095";
 		if(args.length == 1)
 			url = args[0]; //Url by args ;-)
 		try {
@@ -45,6 +45,7 @@ public class JsonGetDecode {
 			JSONObject objI = (JSONObject) (obj.get("result"));
 			JSONArray objA = (JSONArray) (objI.get("resources"));
 			
+			int i=1;
 			for(Object o: objA){
 			    if ( o instanceof JSONObject ) {
 			        JSONObject o1 = (JSONObject)o; 
@@ -52,7 +53,8 @@ public class JsonGetDecode {
 			        String urlD = (String)o1.get("url");
 			        System.out.println(format + " | " + urlD);
 			        if(format.equals("csv")) {
-			        	download(urlD, "dataset.csv");
+			        	download(urlD, "dataset_"+i+".csv");
+			        	i++;
 			        }
 			    }
 			}
