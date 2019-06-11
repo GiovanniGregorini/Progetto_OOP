@@ -9,6 +9,7 @@ public class Spesa extends Info {
 	private int spesa_laurea;
 	private int spesa_dottorato;
 	private int spesa_specializzazione;
+	
 	/**
 	 * Costruttore della classe Spesa
 	 * @param codice Codice Spesa

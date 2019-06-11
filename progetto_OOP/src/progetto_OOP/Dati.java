@@ -1,5 +1,9 @@
 package progetto_OOP;
-
+/**
+ * 
+ * Classe Dati contenente tutte le informazioni relative agli organismi di gestione per il diritto allo studio universitario nelle varie regioni d'Italia
+ *
+ */
 public class Dati {
 	private int anno_solare;
 	private Regione dati_regione;
@@ -7,6 +11,22 @@ public class Dati {
 	private Istituto dati_istituto;
 	private Spesa dati_spesa;
 	
+	/**
+	 * Costruttore della classe Dati
+	 * @param anno_solare anno solare
+	 * @param codice_regione codice della regione
+	 * @param nome_regione nome della regione
+	 * @param codice_ente codice dell'ente
+	 * @param nome_ente nome dell'ente
+	 * @param codice_istituto codice dell'istituto
+	 * @param nome_istituto nome dell'istituto
+	 * @param tipo_istituto tipologia dell'istituto
+	 * @param codice_spesa codice spesa
+	 * @param descrizione_spesa descrizione della spesa
+	 * @param spesa_laurea spesa per laura
+	 * @param spesa_dottorato spesa per dottorato
+	 * @param spesa_specializzazione spesa per specializzazione
+	 */
 	public Dati(int anno_solare, String codice_regione, String nome_regione, String codice_ente, String nome_ente, String codice_istituto, String nome_istituto, String tipo_istituto, String codice_spesa, String descrizione_spesa, int spesa_laurea, int spesa_dottorato, int spesa_specializzazione) {
 		this.anno_solare = anno_solare;
 		this.dati_regione = new Regione(codice_regione, nome_regione);
