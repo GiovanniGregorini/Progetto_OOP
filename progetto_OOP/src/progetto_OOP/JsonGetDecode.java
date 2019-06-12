@@ -19,11 +19,12 @@ public class JsonGetDecode {
 
 	public static void main(String[] args) {
 
+		//URL di default
 		String url = "https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095";
 		if(args.length == 1)
-			url = args[0]; //Url by args ;-)
-		try {
-			
+			url = args[0]; //URL passato tramite args
+		
+		try {	
 			URLConnection openConnection = new URL(url).openConnection();
 			openConnection.addRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0");
 			InputStream in = openConnection.getInputStream();
@@ -53,8 +54,15 @@ public class JsonGetDecode {
 			        String urlD = (String)o1.get("url");
 			        System.out.println(format + " | " + urlD);
 			        if(format.equals("csv")) {
-			        	download(urlD, "dataset_"+i+".csv");
-			        	i++;
+			        	//prova a fare il download del csv
+			        	try {
+			        		download(urlD, "dataset_"+i+".csv");
+			        		i++;
+			        	}
+			        	//se il file esiste già non viene scaricato nuovamente
+			        	catch (java.nio.file.FileAlreadyExistsException e) {
+			        		System.out.println("File già esistente");
+			        	}
 			        }
 			    }
 			}
@@ -66,6 +74,12 @@ public class JsonGetDecode {
 		}
 	}
 	
+	/**
+	 * Funzione che effettua il download del file csv
+	 * @param url URL del JSON
+	 * @param fileName nome col quale si desidera salvare il file che verrà scaricato
+	 * @throws Exception
+	 */
 	public static void download(String url, String fileName) throws Exception {
 	    try (InputStream in = URI.create(url).toURL().openStream()) {
 	        Files.copy(in, Paths.get(fileName));
