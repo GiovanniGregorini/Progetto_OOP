@@ -12,7 +12,7 @@ import java.util.Vector;
  */
 public class LettoreCSV {
 
-    public static void main(String[] args) {
+    public static Vector<Dati> ottieni_elenco() {
 
         String file_csv = "dataset_1.csv";
         String line = "";
@@ -82,9 +82,11 @@ public class LettoreCSV {
                 catch (Exception e) {
                 }
             }
+            return elenco;
         }
         catch (IOException e) {
             e.printStackTrace();
         }
+        return new Vector<Dati>();
     }
 }
