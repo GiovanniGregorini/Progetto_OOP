@@ -1,8 +1,6 @@
 package progetto_OOP;
-/**
- * 
+/** 
  * Classe madre che contiene informazioni generali come codice e nome/descrizione
- *
  */
 public class Info {
 	private String codice;

@@ -1,9 +1,7 @@
 package progetto_OOP;
 
 /**
- * 
  * Classe Spesa derivata dalla classe Info che contiene informazioni sulle spese effettuate dai vari enti regionali in un anno
- *
  */
 public class Spesa extends Info {
 	private int spesa_laurea;

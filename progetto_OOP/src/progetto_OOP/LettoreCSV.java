@@ -6,13 +6,15 @@ import java.io.IOException;
 import java.util.Vector;
 
 /**
- * 
  * Classe adibita al parsing dei dati contenuti nel dataset
- *
  */
 public class LettoreCSV {
 
-    public static Vector<Dati> ottieni_elenco() {
+    /**
+     * Metodo ausiliario che legge il file csv e sistema tutti i dati all'interno di classi di tipo Dati
+     * @return vettore di elementi di tipo Dati contenente tutte le informazioni all'interno del dataset
+     */
+	public static Vector<Dati> ottieni_elenco() {
 
         String file_csv = "dataset_1.csv";
         String line = "";
@@ -82,11 +84,14 @@ public class LettoreCSV {
                 catch (Exception e) {
                 }
             }
+            //vene restituito l'intero vettore contenente tutti gli oggetti di tipo Dato creati mediante il parsing del csv
             return elenco;
         }
+        //in caso di assenza del file csv
         catch (IOException e) {
             e.printStackTrace();
         }
+        //viene restituiyo un vettore vuoto
         return new Vector<Dati>();
     }
 }

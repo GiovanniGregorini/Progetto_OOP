@@ -1,9 +1,7 @@
 package progetto_OOP;
 
 /**
- * 
  * Classe Ente derivata dalla classe Info contenente informazioni su un ente
- *
  */
 public class Ente extends Info {
 	

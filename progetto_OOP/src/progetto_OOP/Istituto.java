@@ -1,9 +1,7 @@
 package progetto_OOP;
 
 /**
- * 
  * Classe Istituto derivata dalla classe Info contenente informazioni su un istituto
- *
  */
 
 public class Istituto extends Info {

@@ -1,8 +1,6 @@
 package progetto_OOP;
 /**
- * 
  * Classe Dati contenente tutte le informazioni relative agli organismi di gestione per il diritto allo studio universitario nelle varie regioni d'Italia
- *
  */
 public class Dati {
 	private int anno_solare;
@@ -78,7 +76,7 @@ public class Dati {
 	public int ottieni_spesa_specializzazione() {
 		return this.dati_spesa.ottieni_spesa_specializzazione();
 	}
-	public String stampa(){
+	public String stampa() {
 		return ""+this.ottieni_anno_solare() + " "+ this.ottieni_codice_regione() + " " + this.ottieni_nome_regione() + " " + this.ottieni_codice_ente() + " " + this.ottieni_nome_ente() + " " + this.ottieni_codice_istituto() + " " + this.ottieni_nome_istituto() + " " + this.ottieni_tipo_istituto() + " " + this.ottieni_codice_spesa() + " " + this.ottieni_descrizione_spesa() + " " + this.ottieni_spesa_laurea() + " " + this.ottieni_spesa_dottorato() + " " + this.ottieni_spesa_specializzazione();   
 	}
 }

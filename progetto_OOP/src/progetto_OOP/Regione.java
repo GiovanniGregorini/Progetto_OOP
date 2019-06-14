@@ -1,8 +1,6 @@
 package progetto_OOP;
 /**
- * 
  * Classe Regione derivata dalla classe Info, contiene le informazioni di una regione
- *
  */
 public class Regione extends Info {
 	/**

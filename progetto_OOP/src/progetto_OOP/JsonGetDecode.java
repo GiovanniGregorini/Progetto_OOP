@@ -15,6 +15,9 @@ import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.parser.ParseException;
 
+/**
+ * Classe adibita al download del file csv il cui URL è contenuto all'interno del json passato a sua volta tramite url
+ */
 public class JsonGetDecode {
 
 	public static void main(String[] args) {
@@ -75,7 +78,7 @@ public class JsonGetDecode {
 	}
 	
 	/**
-	 * Funzione che effettua il download del file csv
+	 * Metodo ausiliario che effettua il download del file csv
 	 * @param url URL del JSON
 	 * @param fileName nome col quale si desidera salvare il file che verrà scaricato
 	 * @throws Exception
