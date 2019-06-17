@@ -1,4 +1,4 @@
-package progetto_OOP_spring.controller;
+package progetto_OOP.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
