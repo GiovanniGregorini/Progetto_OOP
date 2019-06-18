@@ -6,9 +6,9 @@ Il seguente programma scritto in linguaggio java e implementato in spring si pon
 
 **Come funziona il programma?**
 
-All'avvio 
+All'avvio dell'applicazione, collegandosi all'url del json
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjUxNDIzXX0=
+eyJoaXN0b3J5IjpbMzI0NDAxMzc0XX0=
 -->
