@@ -6,9 +6,10 @@ Il seguente programma scritto in linguaggio java e implementato in spring si pon
 
 **Come funziona il programma?**
 
-All'avvio l'applicazione, collegandosi all'url del json fornito, verifica la presenza di file cdv e 
+All'avvio l'applicazione, collegandosi all'url del json fornito, verifica la presenza di file csv e, in caso positivo, effettua il download (solo se il file non è già stato scaricato in precedenza).
+In seguit
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDU4ODIxXX0=
+eyJoaXN0b3J5IjpbLTY3NDAzNTM5NV19
 -->
