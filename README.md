@@ -6,9 +6,9 @@ Il seguente programma scritto in linguaggio java e implementato in spring si pon
 
 **Come funziona il programma?**
 
-All'avvio dell'applicazione, collegandosi all'url del json
+All'avvio l'applicazione, collegandosi all'url del json fornito, verifica la presenza di file cdv e 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0NDAxMzc0XX0=
+eyJoaXN0b3J5IjpbMTE3MDU4ODIxXX0=
 -->
