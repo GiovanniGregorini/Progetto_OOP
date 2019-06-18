@@ -8,9 +8,9 @@ Il seguente programma scritto in linguaggio java e implementato in spring si pon
 
 All'avvio l'applicazione, collegandosi all'url del json fornito, verifica la presenza di file csv e, in caso positivo, effettua il download (solo se il file non è già stato scaricato in precedenza).
 Successivamente viene eseguito il parsing del primo file csv all'interno di un vettore BancaDati contenente tante classi Dati quante sono le righe del csv.
-L'u
+L'utente in seguito, collegandosi al localhost e tramite richieste rest e get, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0NDA3ODQzLC03MDk0MDQ4NDldfQ==
+eyJoaXN0b3J5IjpbLTE4MDUxNDM1OTYsLTcwOTQwNDg0OV19
 -->
