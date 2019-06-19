@@ -24,7 +24,7 @@ public class LettoreCSV {
         try (BufferedReader br = new BufferedReader(new FileReader(file_csv))) {
 
             //creazione del vettore dove saranno inseriti gli oggetti di tipo Dati ottenuti dal parsing del csv
-        	Vector<Dati> elenco = new Vector<Dati>();
+        	Vector<Dati> dati = new Vector<Dati>();
             
         	//dichiarazione delle variabili dove saranno inseriti i dati
             int anno_solare;
@@ -74,7 +74,7 @@ public class LettoreCSV {
                 	}
                 	else spesa_specializzazione = Integer.parseInt(dati_input[12]);
                 	//costruzione dell'oggetto di tipo Dati e inserimento del medesimo all'interno del vettore elenco
-                	elenco.add(new Dati(anno_solare,
+                	dati.add(new Dati(anno_solare,
        					 				codice_regione, nome_regione,
        					 				codice_ente, nome_ente,
        					 				codice_istituto, nome_istituto, tipo_istituto,
@@ -85,7 +85,7 @@ public class LettoreCSV {
                 }
             }
             //vene restituito l'intero vettore contenente tutti gli oggetti di tipo Dato creati mediante il parsing del csv
-            return elenco;
+            return dati;
         }
         //in caso di assenza del file csv
         catch (IOException e) {
