@@ -19,7 +19,7 @@ public class Progetto_OopSpringController {
 	public String stampa() {
 		return "Progetto_OOP comandi: /dati /metadata";
 	}
-	
+
 	@RequestMapping("/dati")
 	public BancaDati ottieniBancadati() {
 		return dati;
