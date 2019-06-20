@@ -21,7 +21,7 @@ public class Progetto_OopSpringController {
 	
 	@RequestMapping("/")
 	public String stampa() {
-		return "Progetto_OOP comandi: /dati /metadata";
+		return "Progetto_OOP comandi: /dati /metadata /stats";
 	}
 
 	@RequestMapping("/dati")

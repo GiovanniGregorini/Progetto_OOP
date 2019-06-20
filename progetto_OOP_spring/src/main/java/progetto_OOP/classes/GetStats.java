@@ -1,8 +1,15 @@
 package progetto_OOP.classes;
 
 import java.util.Vector;
-
+/**
+ * Classe contenente metodi utili alla creazione di vettori con oggetti di tipo Stats
+ */
 public class GetStats {
+	/**
+	 * Metodo ausiliario che crea e restituisce un vettore di oggetti di tipo Stats
+	 * @param dati oggetto BancaDati sui quali elementi saranno effettuate le operazioni statistiche
+	 * @return vettore di elementi di tipo Stats
+	 */
 	public static Vector<Stats> getstats(BancaDati dati) {
 		Vector<Stats> stats = new Vector<Stats>();
 		stats.add(new StatsNum("spesa_laurea",dati.avgspesa_laurea(), dati.minspesa_laurea(), dati.maxspesa_laurea(), dati.stdspesa_laurea(),dati.sumspesa_laurea(), dati.count()));

@@ -1,10 +1,18 @@
 package progetto_OOP.classes;
 
+/**
+ * Classe Metadato, rappresenta un attributo di una classe e contiene le sue informazioni
+ */
 public class Metadato {
 	private String alias;
 	private String sourceField;
 	private String type;
-	
+	/**
+	 * Costruttore della classe Metadato
+	 * @param alias attributo
+	 * @param sourceField descrizione atributo
+	 * @param type tipo dell'attributo
+	 */
 	public Metadato(String alias, String sourceField, String type) {
 		this.alias = alias;
 		this.sourceField = sourceField;

@@ -1,5 +1,8 @@
 package progetto_OOP.classes;
 
+/**
+ * Classe Statistica numerica che deriva dalla classe Stats
+ */
 public class StatsNum extends Stats {
 
 	private double avg;
@@ -8,7 +11,16 @@ public class StatsNum extends Stats {
 	private double std;
 	private int sum;
 	private int count;
-	
+	/**
+	 * Costruttore della classe StatsNum
+	 * @param field campo sul quale verranno effettuate le operazioni statistiche
+	 * @param avg media
+	 * @param min valore minimo
+	 * @param max valore massimo
+	 * @param std deviazione standard
+	 * @param sum somma
+	 * @param count conteggio degli elementi
+	 */
 	public StatsNum(String field, double avg, int min, int max, double std, int sum, int count) {
 		
 		super(field);
@@ -19,8 +31,8 @@ public class StatsNum extends Stats {
 		this.sum = sum;
 		this.count = count;
 	}
-
-
+	
+	//getters and setters
 	public double getAvg() {
 		return avg;
 	}

@@ -58,42 +58,6 @@ public class BancaDati {
 		return (double) sum/i;
 	}
 	/**
-	 * Metodo ausiliario che calcola il massimo delle spese per lauree
-	 * @return massimo delle spese per lauree
-	 */
-	public int maxspesa_laurea() {
-		int max = 0;
-		for(Dati elem : dati) {
-			if(elem.getDati_spesa().getSpesa_laurea() > max)
-				max = elem.getDati_spesa().getSpesa_laurea();
-		}
-		return max;
-	}
-	/**
-	 * Metodo ausiliario che calcola il massimo delle spese per i dottorati
-	 * @return massimo delle spese per i dottorati
-	 */
-	public int maxspesa_dottorato() {
-		int max = 0;
-		for(Dati elem : dati) {
-			if(elem.getDati_spesa().getSpesa_dottorato() > max)
-				max = elem.getDati_spesa().getSpesa_dottorato();
-		}
-		return max;
-	}
-	/**
-	 * Metodo ausiliario che calcola il massimo delle spese per le specializzazioni
-	 * @return massimo delle spese pel le specializzazioni
-	 */
-	public int maxspesa_specializzazione() {
-		int max = 0;
-		for(Dati elem : dati) {
-			if(elem.getDati_spesa().getSpesa_specializzazione() > max)
-				max = elem.getDati_spesa().getSpesa_specializzazione();
-		}
-		return max;
-	}
-	/**
 	 * Metodo ausiliario che calcola il minimo delle spese per le lauree
 	 * @return monimo delle spese per le lauree
 	 */
@@ -128,6 +92,42 @@ public class BancaDati {
 				min = elem.getDati_spesa().getSpesa_specializzazione();
 		}
 		return min;
+	}
+	/**
+	 * Metodo ausiliario che calcola il massimo delle spese per lauree
+	 * @return massimo delle spese per lauree
+	 */
+	public int maxspesa_laurea() {
+		int max = 0;
+		for(Dati elem : dati) {
+			if(elem.getDati_spesa().getSpesa_laurea() > max)
+				max = elem.getDati_spesa().getSpesa_laurea();
+		}
+		return max;
+	}
+	/**
+	 * Metodo ausiliario che calcola il massimo delle spese per i dottorati
+	 * @return massimo delle spese per i dottorati
+	 */
+	public int maxspesa_dottorato() {
+		int max = 0;
+		for(Dati elem : dati) {
+			if(elem.getDati_spesa().getSpesa_dottorato() > max)
+				max = elem.getDati_spesa().getSpesa_dottorato();
+		}
+		return max;
+	}
+	/**
+	 * Metodo ausiliario che calcola il massimo delle spese per le specializzazioni
+	 * @return massimo delle spese pel le specializzazioni
+	 */
+	public int maxspesa_specializzazione() {
+		int max = 0;
+		for(Dati elem : dati) {
+			if(elem.getDati_spesa().getSpesa_specializzazione() > max)
+				max = elem.getDati_spesa().getSpesa_specializzazione();
+		}
+		return max;
 	}
 	/**
 	 * Metodo ausiliario che calcola la deviazione standard delle spesa per le lauree
