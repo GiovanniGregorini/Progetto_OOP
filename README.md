@@ -1,8 +1,8 @@
+---
 
-<hr>
-<hr>
-<hr>
-<
+
+---
+
 <h1 id="progetto_oop">Progetto_OOP</h1>
 <p><strong>Breve introduzione</strong></p>
 <p>Il seguente programma scritto in linguaggio java e implementato in spring si pone lo scopo di restituire informazioni di tipo statistico su una collezione di dati riguardanti le spese effettuate dalle varie università, enti e regioni d’Italia per interventi con fondi regionali.</p>
@@ -13,24 +13,14 @@ L’utente in seguito, collegandosi al localhost e tramite richieste rest e get,
 <p><strong>
 **Diagrammi UML</strong></p>
 <p>**
-
-Diagramma dei casi d’'uso</p>
-<p><img src="
-
-![Diagramma dei casi d'uso.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true" alt=")
-
-Diagramma deille clasi d'uso.png"></p>
+</p><p>Diagramma dei casi d’'uso</p>
+<p></p><p>![Diagramma dei casi d’uso.png](<a href="https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true">https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma dei casi d’uso.png?raw=true</a>" alt=")</p>
+<p>Diagramma deille clasi d’uso.png"&gt;</p>
 <p>Diagramma delle classi</p>
-<p><img src="si
-
-![diagramma.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true" alt="diagramma.png"></p>
+<p></p><p>![diagramma.png](<a href="https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true">https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true</a>" alt=“diagramma.png”&gt;</p>
 <p>)
-
-Diagramma delle sequenze
-
-![Diagramma delle sSequenze</p>
+</p><p>Diagramma delle sequenze</p>
+<p>![Diagramma delle sSequenze</p>
 <p><img src=".png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20delle%20Sequenze.png?raw=true" alt="Diagramma delle Sequenze.png"></p>
 )
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcyNDU4NDBdfQ==
--->
+
