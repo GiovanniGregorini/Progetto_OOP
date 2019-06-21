@@ -21,7 +21,11 @@ Diagramma dei casi d'uso
 Diagramma delle classi
 
 ![diagramma.png](blob:https://stackedit.io/33df9553-be19-4f30-b3e5-2b4dcd00896f)
+
+Diagramma delle sequenze
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzEyODc2NiwtNTc3MDA2MjgsLTE5NT
-U1MTk5OTNdfQ==
+eyJoaXN0b3J5IjpbLTE3Njk0NTc5OTMsMTIxMzEyODc2NiwtNT
+c3MDA2MjgsLTE5NTU1MTk5OTNdfQ==
 -->
