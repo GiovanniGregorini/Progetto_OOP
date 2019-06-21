@@ -13,6 +13,18 @@
 Successivamente viene eseguito il parsing del primo file csv all’interno di un vettore BancaDati contenente tante classi Dati quante sono le righe del csv.<br>
 L’utente in seguito, collegandosi al localhost e tramite richieste rest e get, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati sempre in formato json e varie statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
 
+**Diagrammi UML**
+
+Diagramma dei casi d'uso
+
+![Diagramma dei casi d'uso.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true)
+
+Diagramma delle classi
+
+![diagramma.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true)
+
+D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNDYxNzM1LDE3NDUxMzQ3MzRdfQ==
+eyJoaXN0b3J5IjpbLTE0MDM2NTU5MDIsNzczNDYxNzM1LDE3ND
+UxMzQ3MzRdfQ==
 -->
