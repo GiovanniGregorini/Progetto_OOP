@@ -12,3 +12,10 @@ Successivamente viene eseguito il parsing del primo file csv all’interno di un
 L’utente in seguito, collegandosi al localhost e tramite richieste rest e get, può<br>
 ricevere in output la lista degli elementi in formato son, l’elenco dei metadati sempre in formato json e varie statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
 
+**Diagrammi UML**
+
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTY1NDU0ODY2MF19
+-->
