@@ -12,6 +12,14 @@ Successivamente viene eseguito il parsing del primo file csv all’interno di un
 L’utente in seguito, collegandosi al localhost e tramite richieste rest e get, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati sempre in formato json e varie statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).
 
 **Diagrammi UML**
+
+Diagramma dei casi d'uso
+
+![Diagramma dei casi d'uso.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true)
+
+Diagramma delle classi
+
+Diagramma delle sequenze
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk4OTU1MjldfQ==
+eyJoaXN0b3J5IjpbOTMxOTU0ODk4XX0=
 -->
