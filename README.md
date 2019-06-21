@@ -9,12 +9,15 @@
 <p><strong>Come funziona il programma?</strong></p>
 <p>All’avvio l’applicazione, collegandosi all’url del json fornito (<a href="https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095">https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095</a>) verifica la presenza di file csv e, in caso positivo, effettua il download (solo se il file non è già stato scaricato in precedenza).<br>
 Successivamente viene eseguito il parsing del primo file csv all’interno di un vettore BancaDati contenente tante classi Dati quante sono le righe del csv.<br>
-L’utente in seguito, collegandosi al localhost e tramite richieste REST GET, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati (sempre in formato json) e le statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
+L’utente in seguito, collegandosi al localhost e tramite richieste REST GET, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati (sempre in formato json) e e statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
 <p><strong>Diagrammi UML</strong></p>
-<p>Diagramma dei casi d’uso</p>
-<p><img src="https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true" alt="Diagramma dei casi d'uso.png"></p>
+<p>Diagramma dei casi d’'uso</p>
+<p><img sahttps://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true" alt="Diagramma deille clasi d'uso.png"></p>
 <p>Diagramma delle classi</p>
-<p><img src="https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true" alt="diagramma.png"></p>
-<p>Diagramma delle sequenze</p>
-<p><img src="https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20delle%20Sequenze.png?raw=true" alt="Diagramma delle Sequenze.png"></p>
-
+<p><img srmma.https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true" alt="diagramma.png"></p>
+<p>Diagramma delle equenzelle sSequenze</p>
+<p><img src=".png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20delle%20Sequenze.png?raw=true" alt="Diagramma de"></p>
+)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMzODI4OTYyN119
+-->
