@@ -9,8 +9,7 @@
 <p><strong>Come funziona il programma?</strong></p>
 <p>All’avvio l’applicazione, collegandosi all’url del json fornito (<a href="https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095">https://www.dati.gov.it/api/3/action/package_show?id=8fbf6192-ea6e-4b04-a526-53229ab8f095</a>), verifica la presenza di file csv e, in caso positivo, effettua il download (solo se il file non è già stato scaricato in precedenza).<br>
 Successivamente viene eseguito il parsing del primo file csv all’interno di un vettore BancaDati contenente tante classi Dati quante sono le righe del csv.<br>
-L’utente in seguito, collegandosi al localhost e tramite richieste rest e get, può<br>
-ricevere in output la lista degli elementi in formato son, l’elenco dei metadati sempre in formato json e varie statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
+L’utente in seguito, collegandosi al localhost e tramite richieste rest e get, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati sempre in formato json e varie statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).</p>
 
 **Diagrammi UML**
 
@@ -26,6 +25,6 @@ Diagramma delle sequenze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk0NTc5OTMsMTIxMzEyODc2NiwtNT
-c3MDA2MjgsLTE5NTU1MTk5OTNdfQ==
+eyJoaXN0b3J5IjpbMjEzOTQ0MTE2MSwtMTc2OTQ1Nzk5MywxMj
+EzMTI4NzY2LC01NzcwMDYyOCwtMTk1NTUxOTk5M119
 -->
