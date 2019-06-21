@@ -14,10 +14,11 @@ ricevere in output la lista degli elementi in formato son, l’elenco dei metada
 
 **Diagrammi UML**
 
+Diagramma dei casi d'uso
 
 ![Diagramma dei casi d'uso.png](blob:https://stackedit.io/6d92b4ae-c21e-464a-93cc-47f35ab4fe40)
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODUxNTUwNDcsLTE5NTU1MTk5OTNdfQ
-==
+eyJoaXN0b3J5IjpbLTU3NzAwNjI4LC0xOTU1NTE5OTkzXX0=
 -->
