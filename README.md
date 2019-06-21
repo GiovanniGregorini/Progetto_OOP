@@ -18,7 +18,10 @@ Diagramma dei casi d'uso
 
 ![Diagramma dei casi d'uso.png](blob:https://stackedit.io/6d92b4ae-c21e-464a-93cc-47f35ab4fe40)
 
+Diagramma delle classi
 
+![diagramma.png](blob:https://stackedit.io/33df9553-be19-4f30-b3e5-2b4dcd00896f)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzAwNjI4LC0xOTU1NTE5OTkzXX0=
+eyJoaXN0b3J5IjpbMTIxMzEyODc2NiwtNTc3MDA2MjgsLTE5NT
+U1MTk5OTNdfQ==
 -->
