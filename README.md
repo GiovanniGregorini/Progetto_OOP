@@ -23,8 +23,9 @@ Diagramma delle classi
 
 Diagramma delle sequenze
 
-
+![Diagramma delle Sequenze.png](blob:https://stackedit.io/de2af9a1-07a6-4065-aa37-00dedfbadc77)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTQ0MTE2MSwtMTc2OTQ1Nzk5MywxMj
-EzMTI4NzY2LC01NzcwMDYyOCwtMTk1NTUxOTk5M119
+eyJoaXN0b3J5IjpbLTQwMDMzMjM5OSwyMTM5NDQxMTYxLC0xNz
+Y5NDU3OTkzLDEyMTMxMjg3NjYsLTU3NzAwNjI4LC0xOTU1NTE5
+OTkzXX0=
 -->
