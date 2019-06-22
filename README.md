@@ -57,13 +57,15 @@ immettere un numero
 **Diagrammi UML**
 
 Diagramma dei casi d'uso
+![Diagramma dei casi d'uso.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20dei%20casi%20d'uso.png?raw=true)
 
 Diagramma delle classi
+![diagramma.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true)
 
-
+Diagramma delle sequenze
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTgzODIxNCwtMTE2MTg2MDI4OSw0OT
-c2MzE0MjUsMTMzODI4OTYyN119
+eyJoaXN0b3J5IjpbLTk1ODc4NTU4LC0xMTYxODYwMjg5LDQ5Nz
+YzMTQyNSwxMzM4Mjg5NjI3XX0=
 -->
