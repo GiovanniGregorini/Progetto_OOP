@@ -21,13 +21,16 @@ per ottenere la lista dati filtrata invece
 
 /condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
 
-condfilter è un filtro condizionale e i valori ammessi sono i seguenti
-tipo
+condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
+tipo: $bt
+         $lte
+         $gte
+        
 /logfilter
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzY4NTI2NSwxMzM4Mjg5NjI3XX0=
+eyJoaXN0b3J5IjpbMTgyNzkwMjMyMiwxMzM4Mjg5NjI3XX0=
 -->
