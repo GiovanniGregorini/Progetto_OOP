@@ -31,16 +31,16 @@ attributo;
 anno_solare per scegliere l'anno solare
 spesa_laurea per scegliere le spese pe le lauree
 spesa_dottorato per scegliere le spese per i dottorati
-spesa_specializzazione pe scegliere le spese per le specializzazioni
+spesa_specializzazione per scegliere le spese per le specializzazioni
 
-min, max e val: immettere un numero
+valore minimo, valore massimo e valore discriminante: immettere un numero
         
-/logfilter?tipo=(tipo
+/logfilter?tipo=(tipo di filtro)&attributo1=(attributo1)&valore1=(valore1)&attributo2
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc4MDE5Miw0OTc2MzE0MjUsMTMzOD
-I4OTYyN119
+eyJoaXN0b3J5IjpbLTE2ODU2OTc3OTIsNDk3NjMxNDI1LDEzMz
+gyODk2MjddfQ==
 -->
