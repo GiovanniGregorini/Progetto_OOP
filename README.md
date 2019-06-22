@@ -35,12 +35,14 @@ spesa_specializzazione per scegliere le spese per le specializzazioni
 
 valore minimo, valore massimo e valore discriminante: immettere un numero
         
-/logfilter?tipo=(tipo di filtro)&attributo1=(attributo1)&valore1=(valore1)&attributo2
+/logfilter?tipo=(tipo di filtro)&attributo1=(attributo1)&valore1=(valore1)&attributo2=(attributo2)&valore2=(valore2)
+
+
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU2OTc3OTIsNDk3NjMxNDI1LDEzMz
-gyODk2MjddfQ==
+eyJoaXN0b3J5IjpbMTg0ODk5MDc3MCw0OTc2MzE0MjUsMTMzOD
+I4OTYyN119
 -->
