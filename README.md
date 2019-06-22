@@ -25,7 +25,7 @@ condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
 tipo di filtro:
 $bt per indicare "compreso", implica min e max
 $lte per indicare "minore o uguale", implica val
-$gte per indicare "maggiore uguale", implica val
+$gte per indicare "maggiore o uguale", implica val
 
 attributo;
 anno_solare per scegliere l'anno solare
@@ -37,12 +37,23 @@ valore minimo, valore massimo e valore discriminante: immettere un numero
         
 /logfilter?tipo=(tipo di filtro)&attributo1=(attributo1)&valore1=(valore1)&attributo2=(attributo2)&valore2=(valore2)
 
+logfilter è un filtro logico e i valori ammessi sono i seguenti.
+tipo di filtro:
+$and per indicare "e", implica min e max
+$or per indicare "o", implica val
 
+attributo;
+anno_solare per scegliere l'anno solare
+spesa_laurea per scegliere le spese pe le lauree
+spesa_dottorato per scegliere le spese per i dottorati
+spesa_specializzazione per scegliere le spese per le specializzazioni
+
+valore minimo, valore massimo e valore discriminante: immettere un numero
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE4NjAyODksNDk3NjMxNDI1LDEzMz
-gyODk2MjddfQ==
+eyJoaXN0b3J5IjpbMTY5MjcwMjMxMSwtMTE2MTg2MDI4OSw0OT
+c2MzE0MjUsMTMzODI4OTYyN119
 -->
