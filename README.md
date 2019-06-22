@@ -20,12 +20,14 @@ Una volta avviato il programma l'utente deve collegarsi da browser al localhost 
 per ottenere la lista dati filtrata invece
 
 /condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
-condfilter 
+
+condfilter è un filtro condizionale e i valori ammessi sono i seguenti
+tipo
 /logfilter
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDg0MjY5MywxMzM4Mjg5NjI3XX0=
+eyJoaXN0b3J5IjpbLTg0MzY4NTI2NSwxMzM4Mjg5NjI3XX0=
 -->
