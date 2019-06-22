@@ -17,12 +17,12 @@ Una volta avviato il programma l'utente deve collegarsi da browser al localhost 
 /metadati
 /stats
 
-per ottenere la lista dati filtrata invece
+per ottenere la lista dati filtrata invece si hanno due opzioni.
 
 /condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
 
 condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
-tipo:
+tipo di filtro:
 $bt per indicare "compreso", implica min e max
 $lte per indicare "minore", implica val
 $gte per indicare "maggiore", implica val
@@ -32,13 +32,15 @@ anno_solare per scegliere l'anno solare
 spesa_laurea per scegliere le spese pe le lauree
 spesa_dottorato per scegliere le spese per i dottorati
 spesa_specializzazione pe scegliere le spese per le specializzazioni
+
+min, max e val: immettere un numero
         
-/logfilter
+/logfilter?tipo=(tipo
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTUwNzI1NCw0OTc2MzE0MjUsMTMzOD
+eyJoaXN0b3J5IjpbLTc5ODc4MDE5Miw0OTc2MzE0MjUsMTMzOD
 I4OTYyN119
 -->
