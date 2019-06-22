@@ -24,8 +24,8 @@ per ottenere la lista dati filtrata invece si hanno due opzioni.
 condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
 tipo di filtro:
 $bt per indicare "compreso", implica min e max
-$lte per indicare "minore", implica val
-$gte per indicare "maggiore", implica val
+$lte per indicare "minore o uguale", implica val
+$gte per indicare "maggiore uguale", implica val
 
 attributo;
 anno_solare per scegliere l'anno solare
@@ -43,6 +43,6 @@ valore minimo, valore massimo e valore discriminante: immettere un numero
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODk5MDc3MCw0OTc2MzE0MjUsMTMzOD
-I4OTYyN119
+eyJoaXN0b3J5IjpbLTExNjE4NjAyODksNDk3NjMxNDI1LDEzMz
+gyODk2MjddfQ==
 -->
