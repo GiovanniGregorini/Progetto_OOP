@@ -1,7 +1,3 @@
-----------
-
-----------
-
 # Progetto_OOP
 
 **Breve introduzione**
@@ -14,9 +10,13 @@ All’avvio l’applicazione, collegandosi all’url del json fornito ([https://
 Successivamente viene eseguito il parsing del primo file csv all’interno di un vettore BancaDati contenente tante classi Dati quante sono le righe del csv.  
 L’utente in seguito, collegandosi al localhost e tramite richieste REST GET, può ricevere in output la lista degli elementi in formato json, l’elenco dei metadati (sempre in formato json) e e statistiche riguardanti i vari attributi di ogni elemento della collezione (anche con utilizzo di filtri).
 
+**Istruzioni per l'uso**
+
+Una volta avviato il programma 
+
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MDcwMTA5LDEzMzgyODk2MjddfQ==
+eyJoaXN0b3J5IjpbODM2MDI0ODEsMTMzODI4OTYyN119
 -->
