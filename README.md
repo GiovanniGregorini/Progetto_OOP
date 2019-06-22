@@ -16,12 +16,15 @@ Una volta avviato il programma l'utente deve collegarsi da browser al localhost 
 /dati
 /metadati
 /stats
-/condfilter?tipo=(tipo di filtro)&attributo=(attributo)&
+
+per ottenere la lista dati filtrata invece
+
+/condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)
 /logfilter
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNjg3MzA1LDEzMzgyODk2MjddfQ==
+eyJoaXN0b3J5IjpbLTE2NzczMDQ2NTcsMTMzODI4OTYyN119
 -->
