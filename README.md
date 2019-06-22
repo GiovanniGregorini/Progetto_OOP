@@ -22,27 +22,30 @@ per ottenere la lista dati filtrata invece si hanno due opzioni.
 /condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
 
 condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
+
 tipo di filtro:
 $bt per indicare "compreso", implica min e max
 $lte per indicare "minore o uguale", implica val
 $gte per indicare "maggiore o uguale", implica val
 
-attributo;
+attributo:
 anno_solare per scegliere l'anno solare
 spesa_laurea per scegliere le spese pe le lauree
 spesa_dottorato per scegliere le spese per i dottorati
 spesa_specializzazione per scegliere le spese per le specializzazioni
 
-valore minimo, valore massimo e valore discriminante: immettere un numero
+valore minimo, valore massimo e valore discriminante: 
+immettere un numero
         
 /logfilter?tipo=(tipo di filtro)&attributo1=(attributo1)&valore1=(valore1)&attributo2=(attributo2)&valore2=(valore2)
 
 logfilter è un filtro logico e i valori ammessi sono i seguenti.
+
 tipo di filtro:
 $and per indicare "e", implica min e max
 $or per indicare "o", implica val
 
-attributo;
+attributo1, attributo2:
 anno_solare per scegliere l'anno solare
 spesa_laurea per scegliere le spese pe le lauree
 spesa_dottorato per scegliere le spese per i dottorati
@@ -54,6 +57,6 @@ valore minimo, valore massimo e valore discriminante: immettere un numero
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjcwMjMxMSwtMTE2MTg2MDI4OSw0OT
-c2MzE0MjUsMTMzODI4OTYyN119
+eyJoaXN0b3J5IjpbMzA2NDI0MzUyLC0xMTYxODYwMjg5LDQ5Nz
+YzMTQyNSwxMzM4Mjg5NjI3XX0=
 -->
