@@ -16,12 +16,12 @@ Una volta avviato il programma l'utente deve collegarsi da browser al localhost 
 /dati
 /metadati
 /stats
-/condfilter
-
+/condfilter?tipo=(tipo di filtro)&attributo=(attributo)&
+/logfilter
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNjUyODkwLDEzMzgyODk2MjddfQ==
+eyJoaXN0b3J5IjpbOTIwNjg3MzA1LDEzMzgyODk2MjddfQ==
 -->
