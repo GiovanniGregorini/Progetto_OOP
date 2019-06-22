@@ -22,9 +22,9 @@ per ottenere la lista dati filtrata invece
 /condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
 
 condfilter è un filtro condizionale e i valori ammessi sono i seguenti.
-tipo: $bt per indicare "comp
-         $lte
-         $gte
+tipo: $bt per indicare "compreso", implica min e max
+         $lte per indicare "minore", implica val
+         $gte per indicare "maggiore", implica val
         
 /logfilter
 
@@ -32,5 +32,5 @@ tipo: $bt per indicare "comp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTg1OTM2OSwxMzM4Mjg5NjI3XX0=
+eyJoaXN0b3J5IjpbNDk3NjMxNDI1LDEzMzgyODk2MjddfQ==
 -->
