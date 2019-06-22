@@ -28,7 +28,10 @@ $lte per indicare "minore", implica val
 $gte per indicare "maggiore", implica val
 
 attributo;
-
+anno_solare per scegliere l'anno solare
+spesa_laurea per scegliere le spese pe le lauree
+spesa_dottorato per scegliere le spese per i dottorati
+spesa_specializzazione pe scegliere le spese per le specializzazioni
         
 /logfilter
 
@@ -36,6 +39,6 @@ attributo;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODI0Njk5MCw0OTc2MzE0MjUsMTMzOD
+eyJoaXN0b3J5IjpbLTI5OTUwNzI1NCw0OTc2MzE0MjUsMTMzOD
 I4OTYyN119
 -->
