@@ -19,12 +19,13 @@ Una volta avviato il programma l'utente deve collegarsi da browser al localhost 
 
 per ottenere la lista dati filtrata invece
 
-/condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)
+/condfilter?tipo=(tipo di filtro)&attributo=(attributo)&min=(valore minimo)&max=(valore massimo)&val=(valore discriminante)
+condfilter 
 /logfilter
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzczMDQ2NTcsMTMzODI4OTYyN119
+eyJoaXN0b3J5IjpbLTcwNDg0MjY5MywxMzM4Mjg5NjI3XX0=
 -->
