@@ -42,8 +42,8 @@ immettere un numero
 logfilter è un filtro logico e i valori ammessi sono i seguenti.
 
 tipo di filtro:
-$and per indicare "e", implica min e max
-$or per indicare "o", implica val
+$and per indicare "e"
+$or per indicare "o"
 
 attributo1, attributo2:
 anno_solare per scegliere l'anno solare
@@ -66,6 +66,6 @@ Diagramma delle sequenze
 ![Diagramma delle Sequenze.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20delle%20Sequenze.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA1NjAxMTgsLTExNjE4NjAyODksND
-k3NjMxNDI1LDEzMzgyODk2MjddfQ==
+eyJoaXN0b3J5IjpbMTY2NjgyMjA0OCwtMTE2MTg2MDI4OSw0OT
+c2MzE0MjUsMTMzODI4OTYyN119
 -->
