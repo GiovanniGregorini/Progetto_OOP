@@ -13,7 +13,7 @@ L’utente in seguito, collegandosi al localhost e tramite richieste REST GET, p
 **Istruzioni per l'uso**
 
 Una volta avviato il programma l'utente deve collegarsi da browser al localhost (http:/localhost:8080/), in questo modo sarà reindirizzato alla home dell'applicazione. Tramite query string può ottenere vari dati in formato json attraverso l'utilizzo dei seguenti comandi:
-/dati
+/dati 
 /metadati
 /stats
 
@@ -56,8 +56,14 @@ immettere un numero
 
 **Diagrammi UML**
 
+Diagramma dei casi d'uso
+
+Diagramma delle classi
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjY1ODEyMywtMTE2MTg2MDI4OSw0OT
+eyJoaXN0b3J5IjpbMTMzOTgzODIxNCwtMTE2MTg2MDI4OSw0OT
 c2MzE0MjUsMTMzODI4OTYyN119
 -->
