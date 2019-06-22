@@ -63,9 +63,9 @@ Diagramma delle classi
 ![diagramma.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/diagramma.png?raw=true)
 
 Diagramma delle sequenze
-
+![Diagramma delle Sequenze.png](https://github.com/GiovanniGregorini/Progetto_OOP/blob/master/progetto_OOP_spring/UML/Diagramma%20delle%20Sequenze.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODc4NTU4LC0xMTYxODYwMjg5LDQ5Nz
-YzMTQyNSwxMzM4Mjg5NjI3XX0=
+eyJoaXN0b3J5IjpbLTE0NjA1NjAxMTgsLTExNjE4NjAyODksND
+k3NjMxNDI1LDEzMzgyODk2MjddfQ==
 -->
