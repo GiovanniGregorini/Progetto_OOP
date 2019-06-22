@@ -11,7 +11,7 @@ public class BancaDati {
 	
 	/**
 	 * Costruttore della classe BancaDati
-	 * @param elenco vettore di elementi di tipo Dati
+	 * @param dati vettore di elementi di tipo Dati
 	 */
 	public BancaDati(Vector<Dati> dati) {
 		this.dati = dati;

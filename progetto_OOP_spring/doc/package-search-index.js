@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"progetto_OOP"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"progetto_OOP.Filter"},{"l":"progetto_OOP.Metadata"},{"l":"progetto_OOP.Stats"},{"l":"progetto_OOP.StrutturaDati"},{"l":"progetto_OOP.Utility"}]
