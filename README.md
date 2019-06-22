@@ -51,12 +51,13 @@ spesa_laurea per scegliere le spese pe le lauree
 spesa_dottorato per scegliere le spese per i dottorati
 spesa_specializzazione per scegliere le spese per le specializzazioni
 
-valore minimo, valore massimo e valore discriminante: immettere un numero
+valore1, valore2:
+immettere un numero
 
 **Diagrammi UML**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NDI0MzUyLC0xMTYxODYwMjg5LDQ5Nz
-YzMTQyNSwxMzM4Mjg5NjI3XX0=
+eyJoaXN0b3J5IjpbMTYxMjY1ODEyMywtMTE2MTg2MDI4OSw0OT
+c2MzE0MjUsMTMzODI4OTYyN119
 -->
